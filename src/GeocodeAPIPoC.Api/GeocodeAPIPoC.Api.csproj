@@ -18,9 +18,6 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Requests\" />
-    </ItemGroup>
-    <ItemGroup>
       <ProjectReference Include="..\GeocodeAPIPoC.Application\GeocodeAPIPoC.Application.csproj" />
       <ProjectReference Include="..\GeocodeAPIPoC.Infrastructure\GeocodeAPIPoC.Infrastructure.csproj" />
     </ItemGroup>
